@@ -20,6 +20,5 @@ def slice(iter_obj, start=0, stop=None, step=1):
         result.append(iter_obj[i])
 
     return result
-
 print(slice(nums, 9, 20, 5))
 print(nums[9:20:5])
